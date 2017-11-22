@@ -7,11 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D05092C51FBF709D002C99DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05092C41FBF709D002C99DA /* main.cpp */; };
+		D01DBB6F1FC0F9560022DCAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D01DBB6E1FC0F9560022DCAE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D01DBB6A1FC0F9560022DCAE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D05092BF1FBF709D002C99DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D05092CD1FBF70C4002C99DA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +41,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D01DBB6C1FC0F9560022DCAE /* 4 - Kosaraju Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4 - Kosaraju Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01DBB6E1FC0F9560022DCAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D01DBB731FC0F9E60022DCAE /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		D05092C11FBF709D002C99DA /* Lagunita Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lagunita Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D05092C41FBF709D002C99DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D05092CF1FBF70C4002C99DA /* Programming Assignment 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programming Assignment 4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E33D9C1FC4EDA4009A7336 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		D0E33D9D1FC4F133009A7336 /* VertexPtrTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexPtrTree.h; sourceTree = "<group>"; };
+		D0E33D9E1FC4F173009A7336 /* VertexPtrNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexPtrNode.h; sourceTree = "<group>"; };
+		D0E33D9F1FC4F437009A7336 /* SortableVertPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortableVertPtr.h; sourceTree = "<group>"; };
+		D0E33DA01FC518D5009A7336 /* quickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quickSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D01DBB691FC0F9560022DCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D05092BE1FBF709D002C99DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05092CC1FBF70C4002C99DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,10 +78,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D01DBB6D1FC0F9560022DCAE /* 4 - Kosaraju Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				D01DBB6E1FC0F9560022DCAE /* main.cpp */,
+				D01DBB731FC0F9E60022DCAE /* Graph.h */,
+				D0E33D9C1FC4EDA4009A7336 /* Vertex.h */,
+				D0E33D9D1FC4F133009A7336 /* VertexPtrTree.h */,
+				D0E33D9E1FC4F173009A7336 /* VertexPtrNode.h */,
+				D0E33D9F1FC4F437009A7336 /* SortableVertPtr.h */,
+				D0E33DA01FC518D5009A7336 /* quickSort.h */,
+			);
+			path = "4 - Kosaraju Algorithm";
+			sourceTree = "<group>";
+		};
 		D05092B81FBF709D002C99DA = {
 			isa = PBXGroup;
 			children = (
-				D05092C31FBF709D002C99DA /* Lagunita Algorithms */,
+				D01DBB6D1FC0F9560022DCAE /* 4 - Kosaraju Algorithm */,
 				D05092C21FBF709D002C99DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,21 +104,32 @@
 			isa = PBXGroup;
 			children = (
 				D05092C11FBF709D002C99DA /* Lagunita Algorithms */,
+				D05092CF1FBF70C4002C99DA /* Programming Assignment 4 */,
+				D01DBB6C1FC0F9560022DCAE /* 4 - Kosaraju Algorithm */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D05092C31FBF709D002C99DA /* Lagunita Algorithms */ = {
-			isa = PBXGroup;
-			children = (
-				D05092C41FBF709D002C99DA /* main.cpp */,
-			);
-			path = "Lagunita Algorithms";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D01DBB6B1FC0F9560022DCAE /* 4 - Kosaraju Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01DBB701FC0F9560022DCAE /* Build configuration list for PBXNativeTarget "4 - Kosaraju Algorithm" */;
+			buildPhases = (
+				D01DBB681FC0F9560022DCAE /* Sources */,
+				D01DBB691FC0F9560022DCAE /* Frameworks */,
+				D01DBB6A1FC0F9560022DCAE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4 - Kosaraju Algorithm";
+			productName = "4 - Kosaraju Algorithm";
+			productReference = D01DBB6C1FC0F9560022DCAE /* 4 - Kosaraju Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
 		D05092C01FBF709D002C99DA /* Lagunita Algorithms */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D05092C81FBF709D002C99DA /* Build configuration list for PBXNativeTarget "Lagunita Algorithms" */;
@@ -82,6 +147,23 @@
 			productReference = D05092C11FBF709D002C99DA /* Lagunita Algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
+		D05092CE1FBF70C4002C99DA /* Programming Assignment 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05092D31FBF70C4002C99DA /* Build configuration list for PBXNativeTarget "Programming Assignment 4" */;
+			buildPhases = (
+				D05092CB1FBF70C4002C99DA /* Sources */,
+				D05092CC1FBF70C4002C99DA /* Frameworks */,
+				D05092CD1FBF70C4002C99DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Programming Assignment 4";
+			productName = "Programming Assignment 4";
+			productReference = D05092CF1FBF70C4002C99DA /* Programming Assignment 4 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,7 +173,15 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Justin;
 				TargetAttributes = {
+					D01DBB6B1FC0F9560022DCAE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 					D05092C01FBF709D002C99DA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D05092CE1FBF70C4002C99DA = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,22 +200,54 @@
 			projectRoot = "";
 			targets = (
 				D05092C01FBF709D002C99DA /* Lagunita Algorithms */,
+				D05092CE1FBF70C4002C99DA /* Programming Assignment 4 */,
+				D01DBB6B1FC0F9560022DCAE /* 4 - Kosaraju Algorithm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D01DBB681FC0F9560022DCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01DBB6F1FC0F9560022DCAE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D05092BD1FBF709D002C99DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05092C51FBF709D002C99DA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05092CB1FBF70C4002C99DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D01DBB711FC0F9560022DCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D01DBB721FC0F9560022DCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D05092C61FBF709D002C99DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -245,9 +367,34 @@
 			};
 			name = Release;
 		};
+		D05092D41FBF70C4002C99DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D05092D51FBF70C4002C99DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D01DBB701FC0F9560022DCAE /* Build configuration list for PBXNativeTarget "4 - Kosaraju Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01DBB711FC0F9560022DCAE /* Debug */,
+				D01DBB721FC0F9560022DCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D05092BC1FBF709D002C99DA /* Build configuration list for PBXProject "Lagunita Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -262,6 +409,15 @@
 			buildConfigurations = (
 				D05092C91FBF709D002C99DA /* Debug */,
 				D05092CA1FBF709D002C99DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05092D31FBF70C4002C99DA /* Build configuration list for PBXNativeTarget "Programming Assignment 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05092D41FBF70C4002C99DA /* Debug */,
+				D05092D51FBF70C4002C99DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
